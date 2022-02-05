@@ -1,0 +1,83 @@
+@media (max-width: 1024px) {
+  .card {
+    width: calc(50% - 2rem);
+    margin: 1.5rem 2rem;
+    margin-left: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .countryrender .col6 ul {
+    width: calc(50%);
+  }
+}
+
+@media (max-width: 991px) {
+  .countryrender .row {
+    flex-wrap: wrap;
+  }
+  .countryrender .row .col6 {
+    margin-top: 20px;
+    width: calc(100% - 2rem);
+  }
+}
+
+@media (max-width: 767px) {
+  form {
+    display: block !important;
+  }
+  select {
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  select,
+  .search_form {
+    width: 100% !important;
+    /* display: none !important; */
+  }
+}
+@media (max-width: 567px) {
+  .card {
+    width: calc(50% - 0rem);
+    margin: 2rem 0rem;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 567px) {
+  .card {
+    width: calc(100% - 4rem);
+    margin: 2rem auto;
+  }
+  .container {
+    padding: 10px 30px;
+  }
+
+  header p {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .countryInfo {
+    flex-direction: column;
+  }
+  .countryrender .col6 ul {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media (max-width: 430px) {
+  .card {
+    width: calc(100% - 1rem);
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    padding: 10px 20px;
+  }
+}
